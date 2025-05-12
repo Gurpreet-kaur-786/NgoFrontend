@@ -19,7 +19,7 @@ function EditStudentTable() {
     useEffect(() => {
         const fetchStudent = async () => {
             try {
-                const Response = await axios.get('http://localhost:2001/getValidate');
+                const Response = await axios.get('https://ngobackend-j2ap.onrender.com/getValidate');
                 console.log(Response.data)
                 setStudent(Response.data);
             } catch (error) {
@@ -31,7 +31,7 @@ function EditStudentTable() {
 
     const handleStatusUpdate = async (id, newStatus) => {
         try {
-            const response = await axios.put('http://localhost:2001/update', {
+            const response = await axios.put('https://ngobackend-j2ap.onrender.com/update', {
                 id,
                 status: newStatus,
             });

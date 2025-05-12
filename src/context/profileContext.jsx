@@ -12,7 +12,7 @@ export const ProfileProvider = ({ children }) => {
   
     const fetchProfileData = async () => {
       try {
-        const response = await axios.get('http://localhost:2001/getSpecificData', {
+        const response = await axios.get('https://ngobackend-j2ap.onrender.com/getSpecificData', {
           headers: {
             Authorization: `Bearer ${token}`
           }

@@ -17,7 +17,7 @@ function StudentTable() {
     useEffect(() => {
         const fetchStudent = async () => {
             try {
-                const Response = await axios.get('http://localhost:2001/g');
+                const Response = await axios.get('https://ngobackend-j2ap.onrender.com/g');
                 setStudent(Response.data);
             } catch (error) {
                 console.error('Error fetching student details:', error);

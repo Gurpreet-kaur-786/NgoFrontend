@@ -14,7 +14,7 @@ function Payment() {
   useEffect(() => {
     async function fetchDetail() {
       try {
-        const response = await axios.get(`http://localhost:2001/singleData/${id}`);
+        const response = await axios.get(`https://ngobackend-j2ap.onrender.com/singleData/${id}`);
         setDetail(response.data);
       } catch (error) {
         Swal.fire('Error', 'Failed to load payment details.', 'error');
@@ -59,7 +59,7 @@ function Payment() {
     }
 
     try {
-      const response = await axios.post('http://localhost:2001/d', formData, {
+      const response = await axios.post('https://ngobackend-j2ap.onrender.com/d', formData, {
         headers: {
           Authorization: `Bearer ${token}`
         }

@@ -25,7 +25,7 @@ function HistoryCard() {
   useEffect(() => {
     async function fetch() {
       try {
-        const data = await axios.get('http://localhost:2001/userTransaction', {
+        const data = await axios.get('https://ngobackend-j2ap.onrender.com/userTransaction', {
           headers: {
             Authorization: `Bearer ${authentication.token}`
           }

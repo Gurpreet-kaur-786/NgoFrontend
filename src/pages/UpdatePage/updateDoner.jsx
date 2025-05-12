@@ -57,7 +57,7 @@ function UpdateDonerform() {
             if (result.isConfirmed) {
                 try {
                     // console.log(formData); //Debug:check from data before submitting
-                    const response = await axios.put(`http://localhost:2001/doner/update/${id}`, formData, {
+                    const response = await axios.put(`https://ngobackend-j2ap.onrender.com/doner/update/${id}`, formData, {
                         headers: { 'Content-Type': 'application/json' }
                     })
                     console.log(response)

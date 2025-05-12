@@ -20,7 +20,7 @@ function DonateCards() {
     useEffect(() => {
         const fetchDonateCard = async () => {
             try {
-                const Response = await axios.get('http://localhost:2001/onlyValid');
+                const Response = await axios.get('https://ngobackend-j2ap.onrender.com/onlyValid');
                 setDonateCard(Response.data);
                 console.log(Response)
 

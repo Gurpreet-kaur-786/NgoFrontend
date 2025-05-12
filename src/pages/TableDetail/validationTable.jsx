@@ -32,7 +32,7 @@ function Validation() {
   useEffect(() => {
     const fetchStudent = async () => {
       try {
-        const response = await axios.get('http://localhost:2001/getValidate');
+        const response = await axios.get('https://ngobackend-j2ap.onrender.com/getValidate');
         const transformedData = response.data.map((d) => ({
           _id: d._id,
           student_id: d.student_id ? d.student_id._id : 'N/A',
@@ -66,7 +66,7 @@ function Validation() {
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          const response = await axios.delete(`http://localhost:2001/validationdelete/${id}`);
+          const response = await axios.delete(`https://ngobackend-j2ap.onrender.com/validationdelete/${id}`);
           console.log(response.data);
           setRow((prev) => prev.filter((item) => item._id !== id));
           Swal.fire('Deleted!', 'The student has been deleted.', 'success');

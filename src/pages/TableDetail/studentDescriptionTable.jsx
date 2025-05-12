@@ -48,7 +48,7 @@ function StudentDescription() {
   useEffect(() => {
     async function fetchStudentDescription() {
       try {
-        const response = await axios.get('http://localhost:2001/g');
+        const response = await axios.get('https://ngobackend-j2ap.onrender.com/g');
         setRow(response.data); 
       } catch (err) {
         console.log(err)

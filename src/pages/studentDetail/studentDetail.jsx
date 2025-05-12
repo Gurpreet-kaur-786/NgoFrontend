@@ -20,7 +20,7 @@ const StudentProfileDetails = () => {
   useEffect(() => {
     const fetchProfileData = async () => {
       try {
-        const response = await axios.get(`http://localhost:2001/getValidate/${id}`);
+        const response = await axios.get(`https://ngobackend-j2ap.onrender.com/getValidate/${id}`);
         setProfileData(response.data);
       } catch (error) {
         console.error("Error fetching profile data:", error);
@@ -32,7 +32,7 @@ const StudentProfileDetails = () => {
 
   const handleStatusUpdate = async (newStatus) => {
     try {
-      const response = await axios.put('http://localhost:2001/update', {
+      const response = await axios.put('https://ngobackend-j2ap.onrender.com/update', {
         id,
         status: newStatus,
       });

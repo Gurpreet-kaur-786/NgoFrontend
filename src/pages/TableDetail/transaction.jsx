@@ -23,7 +23,7 @@ function TransactionTable() {
     useEffect(()=>{
         const fetchTransaction = async () => {
             try {
-                const Response = await axios.get('http://localhost:2001/login')
+                const Response = await axios.get('https://ngobackend-j2ap.onrender.com/login')
                 console.log(Response)
                 setTransaction(Response.data)
                 

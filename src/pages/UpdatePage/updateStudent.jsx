@@ -77,7 +77,7 @@ const UpdateStudent = () => {
     }).then(async (result) => {
       if (result.isConfirmed) {
         try {
-          const response = await axios.put(`http://localhost:2001/update/${id}`, formData, {
+          const response = await axios.put(`https://ngobackend-j2ap.onrender.com/update/${id}`, formData, {
             headers: { 'Content-Type': 'application/json' }
           });
           toast.success('Update successful');

@@ -31,7 +31,7 @@ function Profile() {
             try {
                 if (!isDoner) return; // If the user is not a donor, skip the donation history fetch
 
-                const donationResponse = await axios.get('http://localhost:2001/userSpecificTransaction', {
+                const donationResponse = await axios.get('https://ngobackend-j2ap.onrender.com/userSpecificTransaction', {
                     headers: {
                         Authorization: `Bearer ${authentication.token}` 
                     }
@@ -64,7 +64,7 @@ function Profile() {
     useEffect(() => {
         async function fetchData() {
             try {
-                const respone = await axios.get(`http://localhost:2001/studentDetail/${user._id}`, {
+                const respone = await axios.get(`https://ngobackend-j2ap.onrender.com/studentDetail/${user._id}`, {
                     headers: {
                         Authorization: `Bearer ${authentication.token}` 
                     }

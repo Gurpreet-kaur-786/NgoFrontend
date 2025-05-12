@@ -27,7 +27,7 @@ function Donerform() {
                 name: formData.name.charAt(0).toUpperCase() + formData.name.slice(1).toLowerCase()
             };
     
-            const response = await axios.post('http://localhost:2001/addDoner', capitalizedFormData, {
+            const response = await axios.post('https://ngobackend-j2ap.onrender.com/addDoner', capitalizedFormData, {
                 headers: { 'Content-Type': 'application/json' }
             });
     
