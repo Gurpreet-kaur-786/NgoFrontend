@@ -45,7 +45,7 @@ By creating a space for students and donors to connect, we hope to build a more 
                         </p>
                     </div>
                     <div class="col-md-5">
-                        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  height="700" width="400" xmlns="http://www.w3.org/2000/svg" src="public/Images/about1.jpg" alt="" />
+                        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  height="700" width="400" xmlns="http://www.w3.org/2000/svg" src="/Images/about1.jpg" alt="" />
                     </div>
                 </div>
                 <div class="row featurette">
