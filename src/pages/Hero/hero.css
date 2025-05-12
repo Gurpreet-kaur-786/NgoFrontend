@@ -21,7 +21,7 @@
     height: 250px;
     width: 250px;
     background-color: #ccc;
-    background-image: url('../../../public/Images/adminPic.jpg'); /* Use a placeholder or actual image */
+    background-image: url('/Images/adminPic.jpg'); /* Use a placeholder or actual image */
     background-size: cover;
     background-position: center;
     border-radius: 50%;
