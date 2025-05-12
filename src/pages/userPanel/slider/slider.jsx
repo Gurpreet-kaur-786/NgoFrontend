@@ -3,12 +3,12 @@ import { useEffect,useState } from 'react';
 
 function SliderUser() { 
     const images = [
-        "public/slidepics/slide1.jpg",
-        "public/slidepics/slide2.jpg",
-        "public/slidepics/slide3.jpg",
-        "public/slidepics/slide4.jpg",
-        "public/slidepics/slide5.jpg",
-        "public/slidepics/slide6.jpg",
+        "/slidepics/slide1.jpg",
+        "/slidepics/slide2.jpg",
+        "/slidepics/slide3.jpg",
+        "/slidepics/slide4.jpg",
+        "/slidepics/slide5.jpg",
+        "/slidepics/slide6.jpg",
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
