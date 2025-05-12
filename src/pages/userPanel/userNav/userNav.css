@@ -1,0 +1,119 @@
+/* .usernav{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    height: 10vh;
+    
+}
+
+.userlogobox{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.usernavbox {
+    height: 7.7vh;
+    border: none;
+    
+    width: 50%;
+}
+.userbtnbox{
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+}
+.userinsidenav{
+    background-color: transparent;
+
+}
+.usernavbox .navbar-nav a{
+    color: #F9B963;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.usernavbox .navbar-nav a:hover{
+    color: black;
+}
+
+
+.userNavbtn {
+   margin-left: 15px;
+    font-family: inherit;
+    display: inline-block;
+    letter-spacing: .5px;
+    width: 5em;
+    height: 2rem;
+    line-height: 1.2em;
+    overflow: hidden;
+    cursor: pointer;
+    
+    font-size: 15px;
+    background-color: #F9B963;
+    z-index: 1;
+    color: #fff;
+    
+    border-radius: 25px;
+    position: relative;
+  }
+  .userNavbtn Link{
+    text-decoration: none;
+  }
+  
+ .userNavbtn::before {
+    position: absolute;
+    content: "";
+    background: skyblue;
+    
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+  .userNavbtn:hover {
+    border: none;
+    color: black;
+  }
+  
+  .userNavbtn:before {
+    top: 100%;
+    left: 100%;
+    transition: .8s all;
+    color: black;
+  }
+  
+  .userNavbtn:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+ 
+  .userClass{
+    margin: 0 5px;
+  } */
+
+
+  .signbtnlink{
+    text-decoration: none;
+    color: white;
+  }
+  .loginbtnlink{
+    text-decoration: none;
+    color: white;
+
+  }
+  .applylink{
+    text-decoration: none;
+    color: black;
+  }
+  .navbtn:hover{
+    
+    background-color: black;
+  }

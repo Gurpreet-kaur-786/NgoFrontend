@@ -1,0 +1,30 @@
+.counter-container {
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(26, 26, 26);
+}
+
+.card {
+  width: 250px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: grey;
+}
+
+.counter {
+  font-size: 2rem;
+  font-weight: bold;
+  color: orange;
+  margin-top: 10px;
+}

@@ -1,0 +1,11 @@
+.cardComponentcontain{
+    height: 70vh;
+    width: 20%;
+    border-radius:20px ;
+    /* background-color: gray; */
+    /* box-shadow: 5px 5px 5px 5px gray; */
+}
+.myCarImg{
+    border-radius: 20px;
+    height: 33vh;
+} 

@@ -1,0 +1,79 @@
+/* .historycard{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+
+} */
+
+/* General Styling */
+.historycard {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 40%;
+  }
+  
+  input[type="date"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Table Styling */
+  .transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .transaction-table th, .transaction-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .transaction-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .transaction-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .transaction-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .search-bar {
+      width: 70%;
+    }
+    
+    .filter-container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .transaction-table th, .transaction-table td {
+      padding: 8px;
+    }
+  }
+  

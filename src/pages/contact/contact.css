@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#con
+{
+    
+    width: 100%;
+}
+
+
+
+.inp
+{
+    border: 1px solid black;
+    margin-left: 20px;
+}
+.inpp
+{
+    width: 100%;
+    padding: 50px;
+  margin-left: 15px;
+    border: 1px solid black;
+}
+.bb
+{
+    padding: 15px 25px;
+    width: 30%;
+    border: none;
+    outline: none;
+    font-weight: bold;
+  margin-left: 240px;
+border-radius: 30px;    
+}
+.bb:hover
+{
+background-color:#F98725;
+color: white;
+
+}
+
+.ccn
+{
+    width: 50%;
+    box-shadow: 0px 0px 15px #F98725,0px 0px 15px inset;
+}
+span
+{
+    display: inline-block;
+    transform-origin: 0% 70%;
+    transform-style: preserve-3d;
+    color: black;
+    animation: animate 2.6s infinite linear;
+}
+/* @keyframes animate
+{
+    35%
+    {
+        transform: rotateZ(360deg);
+    }
+    100%
+    {
+        transform:rotatez(360deg);
+    }
+} */
+span:nth-child(even)
+{
+    color: #F98725;
+}

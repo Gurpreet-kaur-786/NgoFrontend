@@ -1,0 +1,205 @@
+/* 
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-left, .profile-right {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-left {
+  background-color: #f9f9f9;
+}
+
+.profile-right {
+  background-color: #ffffff;
+}
+
+.profile-box, .donation-history-box {
+  margin-bottom: 20px;
+}
+
+.profile-info {
+  margin-top: 10px;
+}
+
+.profile-info div {
+  margin-bottom: 10px;
+}
+
+.date-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.date-filter input {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.donation-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.donation-history-table th, .donation-history-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.donation-history-table th {
+  background-color: #f1f1f1;
+}
+
+.login-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+} */
+
+/* ===== Layout Containers ===== */
+.profile-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.profile-left,
+.profile-right {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-left {
+  background-color: #f9f9f9;
+}
+
+.profile-right {
+  background-color: #ffffff;
+}
+
+.profile-box,
+.donation-history-box {
+  margin-bottom: 20px;
+}
+
+/* ===== Profile Info Section ===== */
+.profile-info {
+  margin-top: 10px;
+}
+
+.profile-info div {
+  margin-bottom: 10px;
+}
+
+/* ===== Student-Specific Styles ===== */
+.student-profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.student-profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #4CAF50;
+  margin: 0 auto;
+  display: block;
+}
+
+.student-profile-placeholder {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  color: white;
+  font-weight: bold;
+}
+
+.student-info {
+  margin-top: 10px;
+}
+
+.student-info > div {
+  margin-bottom: 10px;
+}
+
+.completed-profile {
+  color: green;
+  font-weight: bold;
+}
+
+/* ===== Date Filter ===== */
+.date-filter {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.date-filter input {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* ===== Donation History Table ===== */
+.donation-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.donation-history-table th,
+.donation-history-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.donation-history-table th {
+  background-color: #f1f1f1;
+}
+
+/* ===== Buttons ===== */
+.login-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}

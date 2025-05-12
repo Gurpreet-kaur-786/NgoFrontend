@@ -1,0 +1,53 @@
+.cardbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background-color: rgb(26, 26, 26);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+
+.cardbox1 {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-card {
+    backdrop-filter: blur(10px);
+    background-color: #ffffff1f;
+    box-shadow: -0px 3px 12px rgba(0, 0, 0, 0.304);
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.imgBox {
+    border-radius: 8px;
+    margin-bottom: 15px;
+    object-fit: cover;
+
+}
+
+.miniboxheading {
+    font-size: 1.5rem;
+    color:orange;
+    margin-bottom: 10px;
+    font-weight: 800;
+    text-shadow: .5px .5px 1px black;
+}
+
+.cardparabox {
+    font-size: 0.95rem;
+    color: #bbbbbb;
+    line-height: 1.5;
+}

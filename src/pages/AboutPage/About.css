@@ -1,0 +1,65 @@
+/* .AboutContainer{
+    width: 100%;
+    height: 130vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.AboutPhotoBox{
+    height: 90vh;
+    width: 30%;
+    background-image: url('../../../public/Images/aboutPic.jpg');
+    background-size: cover;
+    box-shadow: 2px 2px 5px 5px gray;
+
+
+}
+.AboutTextBox{
+    height: 120vh;
+    width: 45%;
+    background-color: white;
+    box-shadow: 2px 2px 5px 5px gray;
+}
+.AboutHead{
+    height: 25vh;
+    width: 100%;
+    text-align: center;
+   
+}
+.H1Head{
+    margin-top: 2vh;
+    font-weight: bold;
+    font-size: 80px;
+    color: #F7B961;
+    text-shadow: black 2px 2px ;
+}
+.aboutInfo{
+    height: 95vh;
+    width: 100%;
+  
+}
+.a-p
+{
+    text-align: justify;
+    padding-inline: 15px;
+    margin-top: 9vh;
+}
+.AboutBttn{
+    width: 30%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 190px;
+    background-color:#F7B961 ;
+    color: white;
+    border: none;
+    font-weight: bold;
+    
+}
+.Linkaboutbtn{
+    text-decoration: none;
+} */

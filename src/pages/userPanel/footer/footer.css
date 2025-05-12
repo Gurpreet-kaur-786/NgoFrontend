@@ -1,0 +1,99 @@
+.FooterBox{
+    height: 50vh;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 8rem;
+}
+.footbox1{
+    height: auto;
+    width: 30%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 5rem; */
+}
+.footh1{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    
+}
+.footerheading{
+    font-weight: bold;
+    color: white;
+    text-decoration: underline #f8b864;
+}
+.footerpara{
+    margin-top: -12px;
+    color: white;
+}
+.foothead{
+    font-size: 22px;
+}
+.footbelow{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    text-align: justify;
+}
+
+.footerp{
+    margin-top: 35px;
+    color: gray;
+}
+.footbox2{
+    height: auto;
+    width: 30%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    padding-left: 8rem;
+}
+.footbox3{
+    height: auto;
+    width: 30%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.footerheading2{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+   
+}
+.footerbelow2{
+    height: auto;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    color: gray;
+    font-weight: bold;
+}
+.footerbelow2 p{
+    font-size: 13px;
+    transition: .3s ease-in-out;
+}
+.footerbelow2 p:hover{
+    color: #f8b864;
+    transition: .3s ease-in-out;
+
+}
+.foothead{
+    font-weight: bold;
+    color: white;
+    text-decoration: underline #f8b864;
+}
+.footerheading3{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+}
+.marque{
+    background-color: #222222;
+    color: white;
+    font-size: 15px;
+}

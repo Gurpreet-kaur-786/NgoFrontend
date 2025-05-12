@@ -1,0 +1,207 @@
+/* .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+.tophead{
+    height: 8vh;
+    width: 100%;
+}
+.signhead{
+    font-weight: bold;
+    text-align: center;
+    font-size:3vw;
+  -webkit-text-stroke-width: 2px;
+  
+
+    -webkit-text-stroke:1px black ;
+    color: transparent;
+    
+}
+.bigbox{
+    height: auto;
+    width: 100%;
+    
+}
+.signupForm{
+    height: auto;
+    width: 60%;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.178);
+    box-shadow: 2px 2px 2x 2px gray;
+}
+#student
+{
+    border: 3px solid navy;
+}
+
+.signupIsideInputBox{
+height: 13vh;
+width: 100%;
+display: flex;
+margin-top: 5vh;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.signupIsideInputBox input
+{
+   
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-top: 2vh;
+    margin-left: 10px;
+    border-bottom: 2px solid black;
+    border-radius: none;
+
+}
+.signupbtn{
+    height: 6vh;
+    width: 25%;
+}
+
+.signupIsideInputBox7{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: red 1px;
+    
+    }
+    .signhead
+    {
+        position: relative;
+    }
+  */
+
+
+
+
+
+  /* Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background: linear-gradient(to right, #f0f2f5, #c9d6ff);
+    min-height: 100vh;
+}
+
+/* Header */
+.tophead {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.signhead {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #888;
+}
+
+/* Form Wrapper */
+.signupForm {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-transform: capitalize;
+}
+
+/* Input Row */
+.signupIsideInputBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.signupIsideInputBox input {
+    flex: 1 1 45%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.signupIsideInputBox input:focus {
+    border-color: #007bff;
+}
+
+/* Labels */
+.signlabel {
+    flex: 1 1 100%;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: #333;
+}
+
+/* Phone input override */
+.react-tel-input .form-control {
+    width: 100% !important;
+    height: 44px;
+    font-size: 1rem;
+    border-radius: 6px;
+}
+
+/* Button */
+.signupbtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signupbtn:hover {
+    background-color: #0056b3;
+}
+
+/* Final section */
+.signupIsideInputBox7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.signupIsideInputBox7 a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.signupIsideInputBox7 a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .signupIsideInputBox {
+        flex-direction: column;
+    }
+
+    .signupIsideInputBox input,
+    .react-tel-input .form-control {
+        width: 100% !important;
+    }
+
+    .signupbtn {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
