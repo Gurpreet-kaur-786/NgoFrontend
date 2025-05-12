@@ -9,7 +9,7 @@ function RecentScholarships() {
             <div className='recent-cards'>
                 <div className='recent-card'>
                     <div className='recent-card-img img1'>
-                        <img src='public/Images/c1.jpg' alt='Scholarship Opportunity 1' height={"200px"} />
+                        <img src='/Images/c1.jpg' alt='Scholarship Opportunity 1' height={"200px"} />
                     </div>
                     <div className='recent-card-content'>
                         <h3>Summer Scholarship for STEM Students</h3>
@@ -19,7 +19,7 @@ function RecentScholarships() {
 
                 <div className='recent-card'>
                     <div className='recent-card-img img2'>
-                        <img src='public/Images/c2.jpg' alt='Scholarship Opportunity 2' height={"200px"} />
+                        <img src='/Images/c2.jpg' alt='Scholarship Opportunity 2' height={"200px"} />
                     </div>
                     <div className='recent-card-content'>
                         <h3>International Scholarship for Underserved Students</h3>
@@ -29,7 +29,7 @@ function RecentScholarships() {
 
                 <div className='recent-card'>
                     <div className='recent-card-img img3'>
-                        <img src='public/Images/c4.jpg' alt='Scholarship Opportunity 3' height={"200px"} />
+                        <img src='/Images/c4.jpg' alt='Scholarship Opportunity 3' height={"200px"} />
                     </div>
                     <div className='recent-card-content'>
                         <h3>Full Scholarship for Arts and Humanities Majors</h3>
